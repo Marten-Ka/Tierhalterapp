@@ -1,0 +1,35 @@
+﻿[
+    {
+        "id": "1",
+        "name": "(Sub-)Luxation des Kiefergelenks",
+        "krankheitstyp": "1",
+        "synonyme": "Auskugeln des Kiefergelenks, Verrenkung des Kiefergelenks",
+        "symptom_haeufig": "1,2",
+        "informationen": "Eine (Sub-)Luxation des Kiefergelenks beim Pferd ist sehr selten. Sie wird durch Stürze mit Aufschlagen des Kinns oder große Fremdkörper im Bereich der Backenzähne verursacht."
+    },
+    {
+        "id": "2",
+        "name": "Abnutzungsbedingte Malokklusion im Backenzahnbereich",
+        "krankheitstyp": "1",
+        "symptom_haeufig": "2,3",
+        "differenzialdiagnosen": "Zahnkanten, Zahnhaken, Zahnrampen, Wellengebiss, Treppengebiss, Exsuperantiadentium (Meißelzahn), Scherengebiss, raues Gebiss, seniles Gebiss",
+        "informationen": "Die abnormale Gebissabnutzung im Bereich der Backenzähne beschreibt verschiedene Zustände, die die Funktion des Gebisses beeinträchtigen. Durch eine tierärztliche Behandlung kann die Kaufähigkeit meißt wieder vollständig hergestellt werden. "
+    },
+    {
+        "id": "3",
+        "name": "Adenoviridae Erkrankung",
+        "krankheitstyp": "2",
+        "symptom_selten": "1",
+        "informationen": "Eine Infektion mit Adenoviren verläuft meist ohne Symptome."
+    },
+    {
+        "id": "4",
+        "name": "African Horse Sickness Virus",
+        "krankheitstyp": "2",
+        "synonyme": "Afrikanische Pferdepest",
+        "symptom_haeufig": "3",
+        "differenzialdiagnosen": "perakute pulmonale Form, subakute kardiale Form, akute pulmokardiale Form, abortive Form",
+        "informationen": "Die afrikanische Pferdepest ist eine in der EU anzeigepflichtige Virusinfektion, die über Mücken übertragen wird.",
+        "sofortmaßnahmen": "Isolation"
+    }
+]
