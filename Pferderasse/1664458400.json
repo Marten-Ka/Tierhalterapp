@@ -1,14 +1,14 @@
 ﻿[
     {
         "id": 1,
-        "value": "Araber"
+        "name": "Araber"
     },
     {
         "id": 2,
-        "value": "Vollblut"
+        "name": "Vollblut"
     },
     {
         "id": 3,
-        "value": "Haflinger"
+        "name": "Haflinger"
     }
 ]

@@ -1,14 +1,14 @@
 ﻿[
     {
         "id": 1,
-        "value": "Kaubeschwerden"
+        "name": "Kaubeschwerden"
     },
     {
         "id": 2,
-        "value": "Fieber"
+        "name": "Fieber"
     },
     {
         "id": 3,
-        "value": "Schwitzen"
+        "name": "Schwitzen"
     }
 ]

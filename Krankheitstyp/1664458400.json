@@ -1,14 +1,14 @@
 ﻿[
     {
         "id": 1,
-        "value": "Atemwegskrankheiten"
+        "name": "Atemwegskrankheiten"
     },
     {
         "id": 2,
-        "value": "Augenkrankheiten"
+        "name": "Augenkrankheiten"
     },
     {
         "id": 3,
-        "value": "Hautkrankheiten"
+        "name": "Hautkrankheiten"
     }
 ]
