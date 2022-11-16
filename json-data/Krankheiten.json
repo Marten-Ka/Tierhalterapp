@@ -26,5 +26,112 @@
         "symptom_selten": [],
         "typische_rassen": [],
         "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "2",
+        "name": "Abnutzungsbedingte Malokklusion im Backenzahnbereich",
+        "krankheitstyp": "20",
+        "synonyme": [],
+        "symptom_immer": [],
+        "symptom_haeufig": [
+            "4",
+            "5",
+            "6"
+        ],
+        "alter_max": null,
+        "alter_min": null,
+        "differenzialdiagnosen": [
+            "Zahnkanten",
+            "Zahnhaken",
+            "Zahnrampen",
+            "Wellengebiss",
+            "Treppengebiss",
+            "Exsuperantiadentium (Mei\u00dfelzahn)",
+            "Scherengebiss",
+            "raues Gebiss",
+            "seniles Gebiss"
+        ],
+        "geschlecht_ausschlie\u00dflich": [],
+        "geschlecht_typisch": [],
+        "informationen": "Die abnormale Gebissabnutzung im Bereich der Backenz\u00e4hne beschreibt verschiedene Zust\u00e4nde, die die Funktion des Gebisses beeintr\u00e4chtigen. Durch eine tier\u00e4rztliche Behandlung kann die Kauf\u00e4higkeit mei\u00dft wieder vollst\u00e4ndig hergestellt werden.",
+        "krankheit_haeufig": null,
+        "krankheit_selten": null,
+        "sofortma\u00dfnahmen": null,
+        "symptom_dauer_wochen": null,
+        "symptom_selten": [],
+        "typische_rassen": [],
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "3",
+        "name": "Adenoviridae Erkrankung",
+        "krankheitstyp": "16",
+        "synonyme": [],
+        "symptom_immer": [],
+        "symptom_haeufig": [],
+        "alter_max": null,
+        "alter_min": null,
+        "differenzialdiagnosen": [],
+        "geschlecht_ausschlie\u00dflich": [],
+        "geschlecht_typisch": [],
+        "informationen": "Eine Infektion mit Adenoviren verl\u00e4uft meist ohne Symptome.",
+        "krankheit_haeufig": null,
+        "krankheit_selten": null,
+        "sofortma\u00dfnahmen": null,
+        "symptom_dauer_wochen": null,
+        "symptom_selten": [
+            "35",
+            "36",
+            "7"
+        ],
+        "typische_rassen": [],
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "4",
+        "name": "African Horse Sickness Virus",
+        "krankheitstyp": "16",
+        "synonyme": [
+            "Afrikanische Pferdepest"
+        ],
+        "symptom_immer": [],
+        "symptom_haeufig": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22"
+        ],
+        "alter_max": null,
+        "alter_min": null,
+        "differenzialdiagnosen": [
+            "perakute pulmonale Form",
+            "subakute kardiale Form",
+            "akute pulmokardiale Form",
+            "abortive Form"
+        ],
+        "geschlecht_ausschlie\u00dflich": [],
+        "geschlecht_typisch": [],
+        "informationen": "Die afrikanische Pferdepest ist eine in der EU anzeigepflichtige Virusinfektion, die \u00fcber M\u00fccken \u00fcbertragen wird.",
+        "krankheit_haeufig": null,
+        "krankheit_selten": null,
+        "sofortma\u00dfnahmen": [
+            "Isolation"
+        ],
+        "symptom_dauer_wochen": null,
+        "symptom_selten": [],
+        "typische_rassen": [],
+        "timestamp": "2022-09-20 08:38:07"
     }
 ]

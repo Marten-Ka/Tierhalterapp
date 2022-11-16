@@ -1,1 +1,52 @@
-[]
+[
+    {
+        "_id": "1",
+        "name": "Pony",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "2",
+        "name": "Fjord",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "3",
+        "name": "Araber",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "4",
+        "name": "Welsh-A",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "5",
+        "name": "Welsh-B",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "6",
+        "name": "Welsh-C",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "7",
+        "name": "Welsh-D",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "8",
+        "name": "Haflinger",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "9",
+        "name": "Warmblut",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "10",
+        "name": "Vollblut",
+        "timestamp": "2022-09-20 08:38:07"
+    }
+]
