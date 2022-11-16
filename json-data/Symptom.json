@@ -1,0 +1,222 @@
+[
+    {
+        "_id": "1",
+        "name": "herabh\u00e4ngender Unterkiefer",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "2",
+        "name": "offene Maulspalte",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "3",
+        "name": "Abwehrbewegungen bei Kieferber\u00fchrung",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "4",
+        "name": "Kaubeschwerden",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "5",
+        "name": "Kaust\u00f6rungen",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "6",
+        "name": "Ausspucken eingespeichelter Futterwickel",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "7",
+        "name": "Fieber",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "8",
+        "name": "Kurzatmigkeit",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "9",
+        "name": "geweitete N\u00fcstern",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "10",
+        "name": "gespreizte Vorderbeine",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "11",
+        "name": "gestreckter Nacken",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "12",
+        "name": "Bauchatmung",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "13",
+        "name": "Schwitzen",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "14",
+        "name": "Zittern",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "15",
+        "name": "Koordinationsst\u00f6rungen",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "16",
+        "name": "Husten",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "17",
+        "name": "Abgeschlagenheit",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "18",
+        "name": "Koliksymptome",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "19",
+        "name": "Muskelschw\u00e4che",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "20",
+        "name": "Blutungen an den Augen",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "21",
+        "name": "Blutungen am Maul",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "22",
+        "name": "Appetitlosigkeit",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "23",
+        "name": "Bindehautentz\u00fcndung",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "24",
+        "name": "Leistungsminderung",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "25",
+        "name": "Probleme beim Abbei\u00dfen harten Futters",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "26",
+        "name": "vermehrtes Speicheln",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "27",
+        "name": "Mattigkeit im Umgang",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "28",
+        "name": "Ataxie",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "29",
+        "name": "schleimiger Nasenausfluss",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "30",
+        "name": "eitriger Nasenausfluss",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "31",
+        "name": "einseitige Ganaschenumfangsvermehrung",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "32",
+        "name": "schiefe Kopf-Hals-Haltung",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "33",
+        "name": "gestreckte Kopf-Hals-Haltung",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "34",
+        "name": "steifer Hals",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "35",
+        "name": "Bronchitis",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "36",
+        "name": "Durchfall",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "37",
+        "name": "Atembeschwerden",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "38",
+        "name": "Atemger\u00e4usche",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "39",
+        "name": "Nasenausfluss",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "40",
+        "name": "Dampfrinnenbildung",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "41",
+        "name": "beidseitige Ganaschenumfangsvermehrung",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "42",
+        "name": "Atemnot",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "43",
+        "name": "Schluckbeschwerden",
+        "timestamp": "2022-09-20 08:38:07"
+    },
+    {
+        "_id": "44",
+        "name": "Hochw\u00fcrgen von Nahrungsbestandteilen",
+        "timestamp": "2022-09-20 08:38:07"
+    }
+]
