@@ -1,3 +1,4 @@
+import datetime
 import pymongo
 import json
 
@@ -10,6 +11,7 @@ database_name = "TierhalterApp"
 
 # ============================================================
 # connect to the database
+print("---connecting to mongoDB---")
 client = pymongo.MongoClient(client_link)  # access the MongoDB client
 database = client.get_database(database_name)  # access the given database
 
@@ -26,8 +28,11 @@ collections.append(database.get_collection("Symptom"))
 # write the data of all collections to a separate json file
 
 # iterate over all collections and find all documents of each collection
+print("---fetch relevant data---")
 for col in collections:
-    cursor = col.find()
+    cursor = col.find(
+        {'timestamp':{'$lt':datetime.datetime.now(),
+            '$gt':datetime.datetime.now() - datetime.timedelta(days=20)}})
 
     # append all documents to a list
     docs = []
@@ -36,5 +41,5 @@ for col in collections:
 
     # convert the list to json format and write it to a file
     complete_json = json.dumps(docs, default=str, indent=4)
-    with open('json-data/' + col.name + '.json', 'w') as f:
+    with open('json-data</' + col.name + '.json', 'w') as f:
         f.write(complete_json)
