@@ -1,6 +1,5 @@
 [
     {
-        "_id": "637b6dc38e6cf0e5e96d85a9",
         "name": "TEST-(Sub-)Luxation des Kiefergelenks",
         "krankheitstyp": "20",
         "synonyme": [
@@ -25,6 +24,6 @@
         "symptom_dauer_wochen": null,
         "symptom_selten": [],
         "typische_rassen": [],
-        "timestamp": "2022-11-21 13:24:07"
+        "id": "637b6dc38e6cf0e5e96d85a9"
     }
 ]
