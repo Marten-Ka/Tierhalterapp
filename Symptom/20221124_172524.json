@@ -1,0 +1,178 @@
+[
+    {
+        "_id": 1,
+        "name": "herabh\u00e4ngender Unterkiefer"
+    },
+    {
+        "_id": 2,
+        "name": "offene Maulspalte"
+    },
+    {
+        "_id": 3,
+        "name": "Abwehrbewegungen bei Kieferber\u00fchrung"
+    },
+    {
+        "_id": 4,
+        "name": "Kaubeschwerden"
+    },
+    {
+        "_id": 5,
+        "name": "Kaust\u00f6rungen"
+    },
+    {
+        "_id": 6,
+        "name": "Ausspucken eingespeichelter Futterwickel"
+    },
+    {
+        "_id": 7,
+        "name": "Fieber"
+    },
+    {
+        "_id": 8,
+        "name": "Kurzatmigkeit"
+    },
+    {
+        "_id": 9,
+        "name": "geweitete N\u00fcstern"
+    },
+    {
+        "_id": 10,
+        "name": "gespreizte Vorderbeine"
+    },
+    {
+        "_id": 11,
+        "name": "gestreckter Nacken"
+    },
+    {
+        "_id": 12,
+        "name": "Bauchatmung"
+    },
+    {
+        "_id": 13,
+        "name": "Schwitzen"
+    },
+    {
+        "_id": 14,
+        "name": "Zittern"
+    },
+    {
+        "_id": 15,
+        "name": "Koordinationsst\u00f6rungen"
+    },
+    {
+        "_id": 16,
+        "name": "Husten"
+    },
+    {
+        "_id": 17,
+        "name": "Abgeschlagenheit"
+    },
+    {
+        "_id": 18,
+        "name": "Koliksymptome"
+    },
+    {
+        "_id": 19,
+        "name": "Muskelschw\u00e4che"
+    },
+    {
+        "_id": 20,
+        "name": "Blutungen an den Augen"
+    },
+    {
+        "_id": 21,
+        "name": "Blutungen am Maul"
+    },
+    {
+        "_id": 22,
+        "name": "Appetitlosigkeit"
+    },
+    {
+        "_id": 23,
+        "name": "Bindehautentz\u00fcndung"
+    },
+    {
+        "_id": 24,
+        "name": "Leistungsminderung"
+    },
+    {
+        "_id": 25,
+        "name": "Probleme beim Abbei\u00dfen harten Futters"
+    },
+    {
+        "_id": 26,
+        "name": "vermehrtes Speicheln"
+    },
+    {
+        "_id": 27,
+        "name": "Mattigkeit im Umgang"
+    },
+    {
+        "_id": 28,
+        "name": "Ataxie"
+    },
+    {
+        "_id": 29,
+        "name": "schleimiger Nasenausfluss"
+    },
+    {
+        "_id": 30,
+        "name": "eitriger Nasenausfluss"
+    },
+    {
+        "_id": 31,
+        "name": "einseitige Ganaschenumfangsvermehrung"
+    },
+    {
+        "_id": 32,
+        "name": "schiefe Kopf-Hals-Haltung"
+    },
+    {
+        "_id": 33,
+        "name": "gestreckte Kopf-Hals-Haltung"
+    },
+    {
+        "_id": 34,
+        "name": "steifer Hals"
+    },
+    {
+        "_id": 35,
+        "name": "Bronchitis"
+    },
+    {
+        "_id": 36,
+        "name": "Durchfall"
+    },
+    {
+        "_id": 37,
+        "name": "Atembeschwerden"
+    },
+    {
+        "_id": 38,
+        "name": "Atemger\u00e4usche"
+    },
+    {
+        "_id": 39,
+        "name": "Nasenausfluss"
+    },
+    {
+        "_id": 40,
+        "name": "Dampfrinnenbildung"
+    },
+    {
+        "_id": 41,
+        "name": "beidseitige Ganaschenumfangsvermehrung"
+    },
+    {
+        "_id": 42,
+        "name": "Atemnot"
+    },
+    {
+        "_id": 43,
+        "name": "Schluckbeschwerden"
+    },
+    {
+        "_id": 44,
+        "name": "Hochw\u00fcrgen von Nahrungsbestandteilen"
+    }
+]

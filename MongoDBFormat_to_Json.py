@@ -28,9 +28,9 @@ collections = [database.get_collection("Krankheiten"), database.get_collection("
 # iterate over all collections and find all documents of each collection
 print("---fetch relevant data---")
 for col in collections:
-    cursor = col.find(
-        {'timestamp': {'$lt': datetime.datetime.now(),
-                       '$gt': datetime.datetime.now() - datetime.timedelta(days=20)}})
+    cursor = col.find()
+    """ {'timestamp': {'$lt': datetime.datetime.now(),
+                       '$gt': datetime.datetime.now() - datetime.timedelta(days=20)}})"""
 
     # append all documents to a list
     docs = []
@@ -51,20 +51,29 @@ for col in collections:
 # access the json files in the subdirectories
 json_files = glob.glob('**/*.json')
 
-new_objects = []  # this list will contain the reworked json objects
 # iterate over all json files
 for file in json_files:
-    data = json.loads(open(file).read())
-    # iterate over all objects in the current json file
-    for obj in data:
-        obj['id'] = obj.pop('_id')  # renaming is impossible, so you have to add a new key and copy the value
-        del obj['timestamp']
-        # iterate over all keys in the current object
-        for key in obj:
-            print(obj[key])  # here the key value pairs have to be reworked
-        # append the reworked object
-        new_objects.append(obj)
+    new_objects = []  # this list will contain the reworked json objects
+    with open(file, 'r') as f:
+        json_data = json.load(f)
+        # iterate over all objects (dictionaries) in the file
+        for obj in json_data:
+            # filter out every key value pair where the value is null or an empty list
+            new_object_data = {k: v for k, v in obj.items() if v}
+            # iterate over all keys in the 'new' dictionary
+            for key in new_object_data:
+                if isinstance(new_object_data[key], list):
+                    try:
+                        new_object_data[key] = list(map(int, new_object_data[key]))
+                    except:
+                        pass
+                else:
+                    try:
+                        new_object_data[key] = int(new_object_data[key])
+                    except:
+                        pass
+            del new_object_data['timestamp']
+            new_objects.append(new_object_data)
 
-    # write the reworked objects to the file
     with open(file, 'w') as f:
-        f.write(json.dumps(new_objects, default=str, indent=4))
+        f.write(json.dumps(new_objects, indent=4))
