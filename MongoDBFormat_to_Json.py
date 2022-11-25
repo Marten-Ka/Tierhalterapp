@@ -37,9 +37,9 @@ collections = [database.get_collection("Krankheiten"), database.get_collection("
 print("---fetch relevant data---")
 for col in collections:
     # find all documents of the last 20 days
-    cursor = col.find(
-        {'timestamp': {'$lt': datetime.datetime.now(),
-                       '$gt': datetime.datetime.now() - datetime.timedelta(days=20)}})
+    cursor = col.find()
+    """    {'timestamp': {'$lt': datetime.datetime.now(),
+                       '$gt': datetime.datetime.now() - datetime.timedelta(days=20)}})"""
 
     # append all documents to a list
     docs = []
