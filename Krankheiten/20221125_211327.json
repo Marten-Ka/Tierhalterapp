@@ -1,0 +1,17 @@
+[
+    {
+        "name": "TEST-(Sub-)Luxation des Kiefergelenks",
+        "krankheitstyp": 20,
+        "synonyme": [
+            "Auskugeln des Kiefergelenks",
+            "Verrenkung des Kiefergelenks"
+        ],
+        "symptom_haeufig": [
+            1,
+            2,
+            3
+        ],
+        "informationen": "Eine (Sub-)Luxation des Kiefergelenks beim Pferd ist sehr selten. Sie wird durch Stürze mit Aufschlagen des Kinns oder große Fremdkörper im Bereich der Backenzähne verursacht.",
+        "id": "637b6dc38e6cf0e5e96d85a9"
+    }
+]
