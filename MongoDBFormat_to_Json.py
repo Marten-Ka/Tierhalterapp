@@ -1,4 +1,5 @@
 import datetime
+import time
 import shutil
 
 import pymongo
@@ -7,7 +8,9 @@ import os
 import glob
 import re
 
-filename_timestamp = datetime.datetime.now()  # provisional timestamp used for file naming; not final
+
+filename_timestamp = datetime.datetime.now()
+filename_timestamp = int(time.mktime(filename_timestamp.timetuple()))
 
 # ============================================================
 # define link to MongoDB client and name of the database
@@ -51,7 +54,7 @@ for col in collections:
 
     # convert the document list to json format and write it to a file
     complete_json = json.dumps(docs, default=str, indent=4)
-    with open(os.path.join(col.name, filename_timestamp.strftime('%Y%m%d_%H%M%S') + '.json'), 'w') as f:
+    with open(os.path.join(col.name, str(filename_timestamp) + '.json'), 'w') as f:
         f.write(complete_json)
 
 
@@ -105,4 +108,4 @@ for file in json_files:
             versions[dir_name] = filename_timestamp
 
 with open('versions.json', 'w') as v:
-    v.write(json.dumps(versions, default=str, indent=4))
+    v.write(json.dumps(versions, indent=4))
