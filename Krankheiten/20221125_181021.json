@@ -1,6 +1,5 @@
 [
     {
-        "_id": 1,
         "name": "(Sub-)Luxation des Kiefergelenks",
         "krankheitstyp": 20,
         "synonyme": [
@@ -12,10 +11,10 @@
             2,
             3
         ],
-        "informationen": "Eine (Sub-)Luxation des Kiefergelenks beim Pferd ist sehr selten. Sie wird durch St\u00fcrze mit Aufschlagen des Kinns oder gro\u00dfe Fremdk\u00f6rper im Bereich der Backenz\u00e4hne verursacht."
+        "informationen": "Eine (Sub-)Luxation des Kiefergelenks beim Pferd ist sehr selten. Sie wird durch Stürze mit Aufschlagen des Kinns oder große Fremdkörper im Bereich der Backenzähne verursacht.",
+        "id": 1
     },
     {
-        "_id": 2,
         "name": "Abnutzungsbedingte Malokklusion im Backenzahnbereich",
         "krankheitstyp": 20,
         "symptom_haeufig": [
@@ -29,26 +28,26 @@
             "Zahnrampen",
             "Wellengebiss",
             "Treppengebiss",
-            "Exsuperantiadentium (Mei\u00dfelzahn)",
+            "Exsuperantiadentium (Meißelzahn)",
             "Scherengebiss",
             "raues Gebiss",
             "seniles Gebiss"
         ],
-        "informationen": "Die abnormale Gebissabnutzung im Bereich der Backenz\u00e4hne beschreibt verschiedene Zust\u00e4nde, die die Funktion des Gebisses beeintr\u00e4chtigen. Durch eine tier\u00e4rztliche Behandlung kann die Kauf\u00e4higkeit mei\u00dft wieder vollst\u00e4ndig hergestellt werden."
+        "informationen": "Die abnormale Gebissabnutzung im Bereich der Backenzähne beschreibt verschiedene Zustände, die die Funktion des Gebisses beeinträchtigen. Durch eine tierärztliche Behandlung kann die Kaufähigkeit meißt wieder vollständig hergestellt werden.",
+        "id": 2
     },
     {
-        "_id": 3,
         "name": "Adenoviridae Erkrankung",
         "krankheitstyp": 16,
-        "informationen": "Eine Infektion mit Adenoviren verl\u00e4uft meist ohne Symptome.",
+        "informationen": "Eine Infektion mit Adenoviren verläuft meist ohne Symptome.",
         "symptom_selten": [
             35,
             36,
             7
-        ]
+        ],
+        "id": 3
     },
     {
-        "_id": 4,
         "name": "African Horse Sickness Virus",
         "krankheitstyp": 16,
         "synonyme": [
@@ -78,13 +77,13 @@
             "akute pulmokardiale Form",
             "abortive Form"
         ],
-        "informationen": "Die afrikanische Pferdepest ist eine in der EU anzeigepflichtige Virusinfektion, die \u00fcber M\u00fccken \u00fcbertragen wird.",
-        "sofortma\u00dfnahmen": [
+        "informationen": "Die afrikanische Pferdepest ist eine in der EU anzeigepflichtige Virusinfektion, die über Mücken übertragen wird.",
+        "sofortmaßnahmen": [
             "Isolation"
-        ]
+        ],
+        "id": 4
     },
     {
-        "_id": 5,
         "name": "Chronisch obstruktive Bronchitis",
         "krankheitstyp": 1,
         "synonyme": [
@@ -97,18 +96,18 @@
             16
         ],
         "differenzialdiagnosen": [
-            "infekti\u00f6s bedingte akute Bronchitis",
-            "entz\u00fcndliche Ver\u00e4nderungen der oberen Atemwege",
-            "Lungenentz\u00fcndung",
-            "tumor\u00f6se Erkrankungen der oberen Atemwege",
+            "infektiös bedingte akute Bronchitis",
+            "entzündliche Veränderungen der oberen Atemwege",
+            "Lungenentzündung",
+            "tumoröse Erkrankungen der oberen Atemwege",
             "Herz-Kreislauf-Erkrankungen",
             "Lungenwurminfektion"
         ],
-        "informationen": "Die COB fasst verschiedenartige Krankheiten aus den tiefen Atemwegen zusammen. Als Leitsymptome gelten Husten und Leistungsminderung, sowie h\u00e4ufig Atembeschwerden und eine vermehrte Sekretproduktion (\"Schnoddern\"). Ausgel\u00f6st wird die COB meist durch verschiedenartige St\u00e4ube in der Luft, keine einzelnen Allergene. Die Symptomst\u00e4rke kann dadurch je nach Umgebung variieren. Eine genetische und damit vererbbare Veranlagung liegt h\u00e4ufig vor. Eine IAD wird zum Teil auch als leichte, eine RAO als mittlere bis schwere COB bezeichnet. Spricht das Pferd auf intensive Kortikosteroidbehandlungen nicht an, handelt es sich m\u00f6glicherweise bereits um eine resultierende chronische Ver\u00e4nderung der tiefen Atemwege und Lungenbl\u00e4schen (chronisch-alveol\u00e4res Lungenemphysem).",
+        "informationen": "Die COB fasst verschiedenartige Krankheiten aus den tiefen Atemwegen zusammen. Als Leitsymptome gelten Husten und Leistungsminderung, sowie häufig Atembeschwerden und eine vermehrte Sekretproduktion (\"Schnoddern\"). Ausgelöst wird die COB meist durch verschiedenartige Stäube in der Luft, keine einzelnen Allergene. Die Symptomstärke kann dadurch je nach Umgebung variieren. Eine genetische und damit vererbbare Veranlagung liegt häufig vor. Eine IAD wird zum Teil auch als leichte, eine RAO als mittlere bis schwere COB bezeichnet. Spricht das Pferd auf intensive Kortikosteroidbehandlungen nicht an, handelt es sich möglicherweise bereits um eine resultierende chronische Veränderung der tiefen Atemwege und Lungenbläschen (chronisch-alveoläres Lungenemphysem).",
         "krankheit_haeufig": 1,
-        "sofortma\u00dfnahmen": [
+        "sofortmaßnahmen": [
             "Staubvermeidung",
-            "Inhalation mit Salzl\u00f6sungen"
+            "Inhalation mit Salzlösungen"
         ],
         "symptom_dauer_wochen": 6,
         "symptom_selten": [
@@ -116,10 +115,10 @@
             38,
             39,
             40
-        ]
+        ],
+        "id": 5
     },
     {
-        "_id": 6,
         "name": "EOTRH",
         "krankheitstyp": 20,
         "synonyme": [
@@ -133,14 +132,14 @@
         ],
         "alter_max": 99,
         "alter_min": 15,
-        "informationen": "EOTRH ist eine schmerzhafte, sich verschlimmernde Zahnerkrankung, die vorrangig bei \u00e4lteren Pferden auftritt. Meist betreffen sie vor allem die Schneide- und Hengstz\u00e4hne.",
+        "informationen": "EOTRH ist eine schmerzhafte, sich verschlimmernde Zahnerkrankung, die vorrangig bei älteren Pferden auftritt. Meist betreffen sie vor allem die Schneide- und Hengstzähne.",
         "krankheit_selten": 1,
         "typische_rassen": [
             1
-        ]
+        ],
+        "id": 6
     },
     {
-        "_id": 7,
         "name": "Equine degenerative Myeloenzephalopathie",
         "krankheitstyp": 10,
         "synonyme": [
@@ -162,14 +161,14 @@
             6,
             7,
             8
-        ]
+        ],
+        "id": 7
     },
     {
-        "_id": 8,
         "name": "Inflammatory Airway Disease",
         "krankheitstyp": 1,
         "synonyme": [
-            "Allein entz\u00fcndliche Ver\u00e4nderung der tiefen Atemwege",
+            "Allein entzündliche Veränderung der tiefen Atemwege",
             "IAD"
         ],
         "symptom_haeufig": [
@@ -179,30 +178,30 @@
         ],
         "alter_max": 10,
         "differenzialdiagnosen": [
-            "andere Arten entz\u00fcndlicher Ver\u00e4nderungen der Atemwege",
+            "andere Arten entzündlicher Veränderungen der Atemwege",
             "COB"
         ],
-        "informationen": "Allein entz\u00fcndliche Ver\u00e4nderungen der tiefen Atemwege treten h\u00e4ufig bei jungen, hoch trainierten Pferden auf. Staubbelastungen w\u00e4hrend k\u00f6rperlicher Arbeit und in der Haltung spielen vermutlich eine ausl\u00f6sende Rolle.",
-        "sofortma\u00dfnahmen": [
+        "informationen": "Allein entzündliche Veränderungen der tiefen Atemwege treten häufig bei jungen, hoch trainierten Pferden auf. Staubbelastungen während körperlicher Arbeit und in der Haltung spielen vermutlich eine auslösende Rolle.",
+        "sofortmaßnahmen": [
             "Staubvermeidung"
         ],
         "symptom_dauer_wochen": 1,
         "symptom_selten": [
             24
-        ]
+        ],
+        "id": 8
     },
     {
-        "_id": 9,
         "name": "Luftsacktympanie",
         "krankheitstyp": 1,
         "symptom_haeufig": [
             31
         ],
         "alter_max": 1,
-        "geschlecht_ausschlie\u00dflich": [
+        "geschlecht_ausschließlich": [
             3
         ],
-        "informationen": "Die Luftsacktympanie tritt meist bei Fohlen innerhalb der ersten 3 Lebenswochen auf. Durch eine Fehlbildung in der Luftsackklappe kommt es zu einer \u00dcberbl\u00e4hung des Luftsacks im Ganaschenbereich, die meist einseitig sichtbar wird. Die Krankheit ist erblich.",
+        "informationen": "Die Luftsacktympanie tritt meist bei Fohlen innerhalb der ersten 3 Lebenswochen auf. Durch eine Fehlbildung in der Luftsackklappe kommt es zu einer Überblähung des Luftsacks im Ganaschenbereich, die meist einseitig sichtbar wird. Die Krankheit ist erblich.",
         "symptom_selten": [
             38,
             16,
@@ -213,14 +212,14 @@
         ],
         "typische_rassen": [
             3
-        ]
+        ],
+        "id": 9
     },
     {
-        "_id": 10,
-        "name": "Missbildung der Wirbels\u00e4ule",
+        "name": "Missbildung der Wirbelsäule",
         "krankheitstyp": 10,
         "synonyme": [
-            "Sub-Luxationen der Wirbels\u00e4ule"
+            "Sub-Luxationen der Wirbelsäule"
         ],
         "symptom_haeufig": [
             28,
@@ -233,14 +232,14 @@
             1,
             2
         ],
-        "informationen": "Missbildungen der Wirbels\u00e4ule werden meist bereits beim Fohlen auff\u00e4llig.",
+        "informationen": "Missbildungen der Wirbelsäule werden meist bereits beim Fohlen auffällig.",
         "typische_rassen": [
             9,
             10
-        ]
+        ],
+        "id": 10
     },
     {
-        "_id": "637b6dc38e6cf0e5e96d85a9",
         "name": "TEST-(Sub-)Luxation des Kiefergelenks",
         "krankheitstyp": 20,
         "synonyme": [
@@ -252,6 +251,7 @@
             2,
             3
         ],
-        "informationen": "Eine (Sub-)Luxation des Kiefergelenks beim Pferd ist sehr selten. Sie wird durch St\u00fcrze mit Aufschlagen des Kinns oder gro\u00dfe Fremdk\u00f6rper im Bereich der Backenz\u00e4hne verursacht."
+        "informationen": "Eine (Sub-)Luxation des Kiefergelenks beim Pferd ist sehr selten. Sie wird durch Stürze mit Aufschlagen des Kinns oder große Fremdkörper im Bereich der Backenzähne verursacht.",
+        "id": "637b6dc38e6cf0e5e96d85a9"
     }
 ]

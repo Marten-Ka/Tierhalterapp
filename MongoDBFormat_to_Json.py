@@ -1,4 +1,6 @@
 import datetime
+import shutil
+
 import pymongo
 import json
 import os
@@ -38,7 +40,10 @@ for col in collections:
         docs.append(doc)
 
     # create a directory for the current collection
-    os.mkdir(os.path.join(os.getcwd(), col.name))
+    dir_path = os.path.join(os.getcwd(), col.name)
+    if os.path.exists(dir_path):
+        shutil.rmtree(dir_path)
+    os.mkdir(dir_path)
 
     # convert the document list to json format and write it to a file
     complete_json = json.dumps(docs, default=str, indent=4)
@@ -73,7 +78,11 @@ for file in json_files:
                     except:
                         pass
             del new_object_data['timestamp']
+            new_object_data['id'] = new_object_data.pop('_id')
             new_objects.append(new_object_data)
 
-    with open(file, 'w') as f:
-        f.write(json.dumps(new_objects, indent=4))
+    with open(file, 'w', encoding='cp1252') as f:
+        f.write(json.dumps(new_objects, indent=4, ensure_ascii=False))
+
+# ============================================================
+# update 'versions.json'
