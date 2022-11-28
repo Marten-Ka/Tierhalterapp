@@ -35,6 +35,13 @@ collections = [database.get_collection("Krankheiten"), database.get_collection("
 
 # iterate over all collections
 print("---fetch relevant data---")
+
+# create a directory for the json files
+json_path = os.path.join(os.getcwd(), "json-files")
+if os.path.exists(json_path):
+    shutil.rmtree(json_path)
+os.mkdir(json_path)
+
 for col in collections:
     # find all documents of the last 20 days
     cursor = col.find()
@@ -51,14 +58,15 @@ for col in collections:
         continue
 
     # create a directory for the current collection
-    dir_path = os.path.join(os.getcwd(), col.name)
+    dir_path = os.path.join(json_path, col.name)
     if os.path.exists(dir_path):
         shutil.rmtree(dir_path)
     os.mkdir(dir_path)
 
     # convert the document list to json format and write it to a file
     complete_json = json.dumps(docs, default=str, indent=4)
-    with open(os.path.join(col.name, str(filename_timestamp) + '.json'), 'w') as f:
+    path = os.path.join(dir_path, str(filename_timestamp) + '.json')
+    with open(path, 'w') as f:
         f.write(complete_json)
 
 
@@ -66,7 +74,7 @@ for col in collections:
 # rework the created json files
 print("---rework json files---")
 # access the json files in the subdirectories
-json_files = glob.glob('**/*.json')
+json_files = glob.glob(r'C:\Users\MDKaf\Workspaces\Tierhalterapp\json-files\**\*.json')
 
 # iterate over all json files
 for file in json_files:
@@ -104,12 +112,18 @@ versions = {}
 with open('versions.json', 'r') as v:
     versions = json.load(v)
 
+print(versions)
+
 for file in json_files:
+    print(file)
     with open(file, 'r') as f:
         file_data = json.load(f)
         if file_data:
-            dir_name = re.findall(r'^.*?\\', file)[0][:-1]
+            dir_name = os.path.dirname(file).rsplit("\\")[1]
+            print(dir_name)
             versions[dir_name] = filename_timestamp
+
+
 
 with open('versions.json', 'w') as v:
     v.write(json.dumps(versions, indent=4))
