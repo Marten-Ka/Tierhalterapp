@@ -38,13 +38,17 @@ print("---fetch relevant data---")
 for col in collections:
     # find all documents of the last 20 days
     cursor = col.find()
-    """    {'timestamp': {'$lt': datetime.datetime.now(),
-                       '$gt': datetime.datetime.now() - datetime.timedelta(days=20)}})"""
+    #    {'timestamp': {'$lt': datetime.datetime.now(),
+    #                    '$gt': datetime.datetime.now() - datetime.timedelta(days=20)}}
 
     # append all documents to a list
     docs = []
     for doc in list(cursor):
         docs.append(doc)
+    
+    # if no new data is found don't create new json files
+    if docs == []:
+        continue
 
     # create a directory for the current collection
     dir_path = os.path.join(os.getcwd(), col.name)
@@ -60,7 +64,7 @@ for col in collections:
 
 # ============================================================
 # rework the created json files
-
+print("---rework json files---")
 # access the json files in the subdirectories
 json_files = glob.glob('**/*.json')
 
