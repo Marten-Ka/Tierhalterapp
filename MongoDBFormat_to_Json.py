@@ -23,8 +23,6 @@ def git_push():
     except:
         print("some error occured while pushing")
 
-print(path_to_git)
-
 filename_timestamp = datetime.datetime.now()
 filename_timestamp = int(time.mktime(filename_timestamp.timetuple()))
 
@@ -61,7 +59,8 @@ os.mkdir(json_path)
 
 for col in collections:
     # find all documents of the last 20 days
-    cursor = col.find()
+    cursor = col.find({'timestamp': {'$lt': datetime.datetime.now(),
+                        '$gt': datetime.datetime.now() - datetime.timedelta(days=20)}})
     #    {'timestamp': {'$lt': datetime.datetime.now(),
     #                    '$gt': datetime.datetime.now() - datetime.timedelta(days=20)}}
 
