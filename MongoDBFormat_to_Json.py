@@ -8,6 +8,22 @@ import os
 import glob
 import re
 
+from git import Repo
+
+path_to_git = os.getcwd()+"\.git"
+commit_message = "automated commit from python-script"
+
+def git_push():
+    try:
+        repo = Repo(path_to_git)
+        repo.git.add(update=True)
+        repo.index.commit(commit_message)
+        origin = repo.remote(name='origin')
+        origin.push()
+    except:
+        print("some error occured while pushing")
+
+print(path_to_git)
 
 filename_timestamp = datetime.datetime.now()
 filename_timestamp = int(time.mktime(filename_timestamp.timetuple()))
@@ -70,7 +86,6 @@ for col in collections:
     with open(path, 'w') as f:
         f.write(complete_json)
 
-
 # ============================================================
 # rework the created json files
 print("---rework json files---")
@@ -114,8 +129,6 @@ versions = {}
 with open('versions.json', 'r') as v:
     versions = json.load(v)
 
-#print(versions)
-
 for file in json_files:
     with open(file, 'r') as f:
         file_data = json.load(f)
@@ -125,3 +138,5 @@ for file in json_files:
 
 with open('versions.json', 'w') as v:
     v.write(json.dumps(versions, indent=4))
+
+git_push()
