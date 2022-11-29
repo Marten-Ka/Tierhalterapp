@@ -16,7 +16,7 @@ commit_message = "automated commit from python-script"
 def git_push():
     try:
         repo = Repo(path_to_git)
-        repo.git.add(update=True)
+        repo.index.add("json-files/")
         repo.index.commit(commit_message)
         origin = repo.remote(name='origin')
         origin.push()
@@ -59,8 +59,7 @@ os.mkdir(json_path)
 
 for col in collections:
     # find all documents of the last 20 days
-    cursor = col.find({'timestamp': {'$lt': datetime.datetime.now(),
-                        '$gt': datetime.datetime.now() - datetime.timedelta(days=20)}})
+    cursor = col.find()
     #    {'timestamp': {'$lt': datetime.datetime.now(),
     #                    '$gt': datetime.datetime.now() - datetime.timedelta(days=20)}}
 
