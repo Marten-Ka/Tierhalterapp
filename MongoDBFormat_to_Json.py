@@ -38,6 +38,7 @@ print("---fetch relevant data---")
 
 # create a directory for the json files
 json_path = os.path.join(os.getcwd(), "json-files")
+print(json_path)
 if os.path.exists(json_path):
     shutil.rmtree(json_path)
 os.mkdir(json_path)
@@ -74,7 +75,8 @@ for col in collections:
 # rework the created json files
 print("---rework json files---")
 # access the json files in the subdirectories
-json_files = glob.glob(r'C:\Users\MDKaf\Workspaces\Tierhalterapp\json-files\**\*.json')
+
+json_files = glob.glob(json_path + "\**\*.json")
 
 # iterate over all json files
 for file in json_files:
@@ -112,18 +114,14 @@ versions = {}
 with open('versions.json', 'r') as v:
     versions = json.load(v)
 
-print(versions)
+#print(versions)
 
 for file in json_files:
-    print(file)
     with open(file, 'r') as f:
         file_data = json.load(f)
         if file_data:
-            dir_name = os.path.dirname(file).rsplit("\\")[1]
-            print(dir_name)
+            dir_name = os.path.dirname(file).rsplit("\\")[-1]
             versions[dir_name] = filename_timestamp
-
-
 
 with open('versions.json', 'w') as v:
     v.write(json.dumps(versions, indent=4))
