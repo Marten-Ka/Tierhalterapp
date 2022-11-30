@@ -17,6 +17,7 @@ def git_push():
     try:
         repo = Repo(path_to_git)
         repo.index.add("json-files/")
+        repo.index.add("versions.json")
         repo.index.commit(commit_message)
         origin = repo.remote(name='origin')
         origin.push()
@@ -52,7 +53,6 @@ print("---fetch relevant data---")
 
 # create a directory for the json files
 json_path = os.path.join(os.getcwd(), "json-files")
-print(json_path)
 if os.path.exists(json_path):
     shutil.rmtree(json_path)
 os.mkdir(json_path)
