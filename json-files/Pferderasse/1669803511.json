@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Pony",
+        "id": 1
+    },
+    {
+        "name": "Fjord",
+        "id": 2
+    },
+    {
+        "name": "Araber",
+        "id": 3
+    },
+    {
+        "name": "Welsh-A",
+        "id": 4
+    },
+    {
+        "name": "Welsh-B",
+        "id": 5
+    },
+    {
+        "name": "Welsh-C",
+        "id": 6
+    },
+    {
+        "name": "Welsh-D",
+        "id": 7
+    },
+    {
+        "name": "Haflinger",
+        "id": 8
+    },
+    {
+        "name": "Warmblut",
+        "id": 9
+    },
+    {
+        "name": "Vollblut",
+        "id": 10
+    }
+]
