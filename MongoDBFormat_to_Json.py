@@ -60,6 +60,7 @@ os.mkdir(json_path)
 for col in collections:
     # find all documents of the last 20 days
     cursor = col.find()
+    #filter to get data newer then 20 days ago:
     #    {'timestamp': {'$lt': datetime.datetime.now(),
     #                    '$gt': datetime.datetime.now() - datetime.timedelta(days=20)}}
 
