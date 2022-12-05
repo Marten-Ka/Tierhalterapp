@@ -32,7 +32,6 @@ filename_timestamp = int(time.mktime(filename_timestamp.timetuple()))
 client_link = "mongodb+srv://HamidO:123Hamid123@cluster0.f2htr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 database_name = "TierhalterApp"
 
-
 # ============================================================
 # connect to the database
 print("---connecting to mongoDB---")
@@ -44,11 +43,8 @@ collections = [database.get_collection("Krankheiten"), database.get_collection("
                database.get_collection("Pferdegeschlecht"), database.get_collection("Pferderasse"),
                database.get_collection("Symptom")]
 
-
 # ============================================================
 # write the data of all collections to a separate json file
-
-# iterate over all collections
 print("---fetch relevant data---")
 
 # create a directory for the json files
@@ -57,9 +53,11 @@ if os.path.exists(json_path):
     shutil.rmtree(json_path)
 os.mkdir(json_path)
 
+# iterate over all collections
 for col in collections:
     # find all documents of the last 20 days
-    cursor = col.find()
+    cursor = col.find({'timestamp': {'$lt': datetime.datetime.now(),
+                    '$gt': datetime.datetime.now() - datetime.timedelta(days=20)}})
     #filter to get data newer then 20 days ago:
     #    {'timestamp': {'$lt': datetime.datetime.now(),
     #                    '$gt': datetime.datetime.now() - datetime.timedelta(days=20)}}
@@ -89,7 +87,6 @@ for col in collections:
 # rework the created json files
 print("---rework json files---")
 # access the json files in the subdirectories
-
 json_files = glob.glob(json_path + "\**\*.json")
 
 # iterate over all json files
@@ -120,10 +117,8 @@ for file in json_files:
     with open(file, 'w', encoding='cp1252') as f:
         f.write(json.dumps(new_objects, indent=4, ensure_ascii=False))
 
-
 # ============================================================
 # update 'versions.json'
-
 versions = {}
 with open('versions.json', 'r') as v:
     versions = json.load(v)
