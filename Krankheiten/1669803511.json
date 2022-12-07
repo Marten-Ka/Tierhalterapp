@@ -104,7 +104,7 @@
             "Lungenwurminfektion"
         ],
         "informationen": "Die COB fasst verschiedenartige Krankheiten aus den tiefen Atemwegen zusammen. Als Leitsymptome gelten Husten und Leistungsminderung, sowie hßufig Atembeschwerden und eine vermehrte Sekretproduktion (\"Schnoddern\"). Ausgelßst wird die COB meist durch verschiedenartige Stßube in der Luft, keine einzelnen Allergene. Die Symptomstßrke kann dadurch je nach Umgebung variieren. Eine genetische und damit vererbbare Veranlagung liegt hßufig vor. Eine IAD wird zum Teil auch als leichte, eine RAO als mittlere bis schwere COB bezeichnet. Spricht das Pferd auf intensive Kortikosteroidbehandlungen nicht an, handelt es sich mßglicherweise bereits um eine resultierende chronische Verßnderung der tiefen Atemwege und Lungenblßschen (chronisch-alveolßres Lungenemphysem).",
-        "krankheit_haeufig": 1,
+        "krankheit_haeufig": true,
         "sofortmaßnahmen": [
             "Staubvermeidung",
             "Inhalation mit Salzlßsungen"
