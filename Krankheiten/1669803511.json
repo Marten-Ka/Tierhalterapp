@@ -11,7 +11,7 @@
             2,
             3
         ],
-        "informationen": "Eine (Sub-)Luxation des Kiefergelenks beim Pferd ist sehr selten. Sie wird durch Stürze mit Aufschlagen des Kinns oder große Fremdkörper im Bereich der Backenzähne verursacht.",
+        "informationen": "Eine (Sub-)Luxation des Kiefergelenks beim Pferd ist sehr selten. Sie wird durch Stßrze mit Aufschlagen des Kinns oder große Fremdkßrper im Bereich der Backenzßhne verursacht.",
         "id": 1
     },
     {
@@ -33,13 +33,13 @@
             "raues Gebiss",
             "seniles Gebiss"
         ],
-        "informationen": "Die abnormale Gebissabnutzung im Bereich der Backenzähne beschreibt verschiedene Zustände, die die Funktion des Gebisses beeinträchtigen. Durch eine tierärztliche Behandlung kann die Kaufähigkeit meißt wieder vollständig hergestellt werden.",
+        "informationen": "Die abnormale Gebissabnutzung im Bereich der Backenzßhne beschreibt verschiedene Zustßnde, die die Funktion des Gebisses beeintrßchtigen. Durch eine tierßrztliche Behandlung kann die Kaufßhigkeit meißt wieder vollstßndig hergestellt werden.",
         "id": 2
     },
     {
         "name": "Adenoviridae Erkrankung",
         "krankheitstyp": 16,
-        "informationen": "Eine Infektion mit Adenoviren verläuft meist ohne Symptome.",
+        "informationen": "Eine Infektion mit Adenoviren verlßuft meist ohne Symptome.",
         "symptom_selten": [
             35,
             36,
@@ -77,7 +77,7 @@
             "akute pulmokardiale Form",
             "abortive Form"
         ],
-        "informationen": "Die afrikanische Pferdepest ist eine in der EU anzeigepflichtige Virusinfektion, die über Mücken übertragen wird.",
+        "informationen": "Die afrikanische Pferdepest ist eine in der EU anzeigepflichtige Virusinfektion, die ßber Mßcken ßbertragen wird.",
         "sofortmaßnahmen": [
             "Isolation"
         ],
@@ -96,18 +96,18 @@
             16
         ],
         "differenzialdiagnosen": [
-            "infektiös bedingte akute Bronchitis",
-            "entzündliche Veränderungen der oberen Atemwege",
-            "Lungenentzündung",
-            "tumoröse Erkrankungen der oberen Atemwege",
+            "infektißs bedingte akute Bronchitis",
+            "entzßndliche Verßnderungen der oberen Atemwege",
+            "Lungenentzßndung",
+            "tumorßse Erkrankungen der oberen Atemwege",
             "Herz-Kreislauf-Erkrankungen",
             "Lungenwurminfektion"
         ],
-        "informationen": "Die COB fasst verschiedenartige Krankheiten aus den tiefen Atemwegen zusammen. Als Leitsymptome gelten Husten und Leistungsminderung, sowie häufig Atembeschwerden und eine vermehrte Sekretproduktion (\"Schnoddern\"). Ausgelöst wird die COB meist durch verschiedenartige Stäube in der Luft, keine einzelnen Allergene. Die Symptomstärke kann dadurch je nach Umgebung variieren. Eine genetische und damit vererbbare Veranlagung liegt häufig vor. Eine IAD wird zum Teil auch als leichte, eine RAO als mittlere bis schwere COB bezeichnet. Spricht das Pferd auf intensive Kortikosteroidbehandlungen nicht an, handelt es sich möglicherweise bereits um eine resultierende chronische Veränderung der tiefen Atemwege und Lungenbläschen (chronisch-alveoläres Lungenemphysem).",
+        "informationen": "Die COB fasst verschiedenartige Krankheiten aus den tiefen Atemwegen zusammen. Als Leitsymptome gelten Husten und Leistungsminderung, sowie hßufig Atembeschwerden und eine vermehrte Sekretproduktion (\"Schnoddern\"). Ausgelßst wird die COB meist durch verschiedenartige Stßube in der Luft, keine einzelnen Allergene. Die Symptomstßrke kann dadurch je nach Umgebung variieren. Eine genetische und damit vererbbare Veranlagung liegt hßufig vor. Eine IAD wird zum Teil auch als leichte, eine RAO als mittlere bis schwere COB bezeichnet. Spricht das Pferd auf intensive Kortikosteroidbehandlungen nicht an, handelt es sich mßglicherweise bereits um eine resultierende chronische Verßnderung der tiefen Atemwege und Lungenblßschen (chronisch-alveolßres Lungenemphysem).",
         "krankheit_haeufig": 1,
         "sofortmaßnahmen": [
             "Staubvermeidung",
-            "Inhalation mit Salzlösungen"
+            "Inhalation mit Salzlßsungen"
         ],
         "symptom_dauer_wochen": 6,
         "symptom_selten": [
@@ -132,7 +132,7 @@
         ],
         "alter_max": 99,
         "alter_min": 15,
-        "informationen": "EOTRH ist eine schmerzhafte, sich verschlimmernde Zahnerkrankung, die vorrangig bei älteren Pferden auftritt. Meist betreffen sie vor allem die Schneide- und Hengstzähne.",
+        "informationen": "EOTRH ist eine schmerzhafte, sich verschlimmernde Zahnerkrankung, die vorrangig bei ßlteren Pferden auftritt. Meist betreffen sie vor allem die Schneide- und Hengstzßhne.",
         "krankheit_selten": 1,
         "typische_rassen": [
             1
@@ -168,7 +168,7 @@
         "name": "Inflammatory Airway Disease",
         "krankheitstyp": 1,
         "synonyme": [
-            "Allein entzündliche Veränderung der tiefen Atemwege",
+            "Allein entzßndliche Verßnderung der tiefen Atemwege",
             "IAD"
         ],
         "symptom_haeufig": [
@@ -178,10 +178,10 @@
         ],
         "alter_max": 10,
         "differenzialdiagnosen": [
-            "andere Arten entzündlicher Veränderungen der Atemwege",
+            "andere Arten entzßndlicher Verßnderungen der Atemwege",
             "COB"
         ],
-        "informationen": "Allein entzündliche Veränderungen der tiefen Atemwege treten häufig bei jungen, hoch trainierten Pferden auf. Staubbelastungen während körperlicher Arbeit und in der Haltung spielen vermutlich eine auslösende Rolle.",
+        "informationen": "Allein entzßndliche Verßnderungen der tiefen Atemwege treten hßufig bei jungen, hoch trainierten Pferden auf. Staubbelastungen wßhrend kßrperlicher Arbeit und in der Haltung spielen vermutlich eine auslßsende Rolle.",
         "sofortmaßnahmen": [
             "Staubvermeidung"
         ],
@@ -201,7 +201,7 @@
         "geschlecht_ausschließlich": [
             3
         ],
-        "informationen": "Die Luftsacktympanie tritt meist bei Fohlen innerhalb der ersten 3 Lebenswochen auf. Durch eine Fehlbildung in der Luftsackklappe kommt es zu einer Überblähung des Luftsacks im Ganaschenbereich, die meist einseitig sichtbar wird. Die Krankheit ist erblich.",
+        "informationen": "Die Luftsacktympanie tritt meist bei Fohlen innerhalb der ersten 3 Lebenswochen auf. Durch eine Fehlbildung in der Luftsackklappe kommt es zu einer ßberblßhung des Luftsacks im Ganaschenbereich, die meist einseitig sichtbar wird. Die Krankheit ist erblich.",
         "symptom_selten": [
             38,
             16,
@@ -216,10 +216,10 @@
         "id": 9
     },
     {
-        "name": "Missbildung der Wirbelsäule",
+        "name": "Missbildung der Wirbelsßule",
         "krankheitstyp": 10,
         "synonyme": [
-            "Sub-Luxationen der Wirbelsäule"
+            "Sub-Luxationen der Wirbelsßule"
         ],
         "symptom_haeufig": [
             28,
@@ -232,7 +232,7 @@
             1,
             2
         ],
-        "informationen": "Missbildungen der Wirbelsäule werden meist bereits beim Fohlen auffällig.",
+        "informationen": "Missbildungen der Wirbelsßule werden meist bereits beim Fohlen auffßllig.",
         "typische_rassen": [
             9,
             10
@@ -251,7 +251,7 @@
             2,
             3
         ],
-        "informationen": "Eine (Sub-)Luxation des Kiefergelenks beim Pferd ist sehr selten. Sie wird durch Stürze mit Aufschlagen des Kinns oder große Fremdkörper im Bereich der Backenzähne verursacht.",
+        "informationen": "Eine (Sub-)Luxation des Kiefergelenks beim Pferd ist sehr selten. Sie wird durch Stßrze mit Aufschlagen des Kinns oder große Fremdkßrper im Bereich der Backenzßhne verursacht.",
         "id": "637b6dc38e6cf0e5e96d85a9"
     }
 ]
