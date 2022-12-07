@@ -1,6 +1,6 @@
 [
     {
-        "name": "herabhängender Unterkiefer",
+        "name": "herabhÃ¤ngender Unterkiefer",
         "id": 1
     },
     {
@@ -8,7 +8,7 @@
         "id": 2
     },
     {
-        "name": "Abwehrbewegungen bei Kieferberührung",
+        "name": "Abwehrbewegungen bei KieferberÃ¼hrung",
         "id": 3
     },
     {
@@ -16,7 +16,7 @@
         "id": 4
     },
     {
-        "name": "Kaustörungen",
+        "name": "KaustÃ¶rungen",
         "id": 5
     },
     {
@@ -32,7 +32,7 @@
         "id": 8
     },
     {
-        "name": "geweitete Nüstern",
+        "name": "geweitete NÃ¼stern",
         "id": 9
     },
     {
@@ -56,7 +56,7 @@
         "id": 14
     },
     {
-        "name": "Koordinationsstörungen",
+        "name": "KoordinationsstÃ¶rungen",
         "id": 15
     },
     {
@@ -72,7 +72,7 @@
         "id": 18
     },
     {
-        "name": "Muskelschwäche",
+        "name": "MuskelschwÃ¤che",
         "id": 19
     },
     {
@@ -88,7 +88,7 @@
         "id": 22
     },
     {
-        "name": "Bindehautentzündung",
+        "name": "BindehautentzÃ¼ndung",
         "id": 23
     },
     {
@@ -96,7 +96,7 @@
         "id": 24
     },
     {
-        "name": "Probleme beim Abbeißen harten Futters",
+        "name": "Probleme beim AbbeiÃŸen harten Futters",
         "id": 25
     },
     {
@@ -148,7 +148,7 @@
         "id": 37
     },
     {
-        "name": "Atemgeräusche",
+        "name": "AtemgerÃ¤usche",
         "id": 38
     },
     {
@@ -172,7 +172,7 @@
         "id": 43
     },
     {
-        "name": "Hochwürgen von Nahrungsbestandteilen",
+        "name": "HochwÃ¼rgen von Nahrungsbestandteilen",
         "id": 44
     }
 ]
