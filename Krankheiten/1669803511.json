@@ -133,7 +133,7 @@
         "alter_max": 99,
         "alter_min": 15,
         "informationen": "EOTRH ist eine schmerzhafte, sich verschlimmernde Zahnerkrankung, die vorrangig bei ßlteren Pferden auftritt. Meist betreffen sie vor allem die Schneide- und Hengstzßhne.",
-        "krankheit_selten": 1,
+        "krankheit_selten": true,
         "typische_rassen": [
             1
         ],
