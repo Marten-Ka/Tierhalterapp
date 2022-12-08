@@ -1,17 +1,15 @@
 import datetime
 import time
 import shutil
-
 import pymongo
 import json
 import os
 import glob
-import re
-
 from git import Repo
 
-path_to_git = os.getcwd()+"\.git"
+path_to_git = os.getcwd() + "\.git"
 commit_message = "automated commit from python-script"
+
 
 def git_push():
     try:
@@ -23,6 +21,7 @@ def git_push():
         origin.push()
     except:
         print("some error occured while pushing")
+
 
 filename_timestamp = datetime.datetime.now()
 filename_timestamp = int(time.mktime(filename_timestamp.timetuple()))
@@ -57,8 +56,8 @@ os.mkdir(json_path)
 for col in collections:
     # find all documents of the last 20 days
     cursor = col.find({'timestamp': {'$lt': datetime.datetime.now(),
-                    '$gt': datetime.datetime.now() - datetime.timedelta(days=20)}})
-    #filter to get data newer then 20 days ago:
+                                     '$gt': datetime.datetime.now() - datetime.timedelta(days=20)}})
+    # filter to get data newer then 20 days ago:
     #    {'timestamp': {'$lt': datetime.datetime.now(),
     #                    '$gt': datetime.datetime.now() - datetime.timedelta(days=20)}}
 
@@ -66,15 +65,13 @@ for col in collections:
     docs = []
     for doc in list(cursor):
         docs.append(doc)
-    
+
     # if no new data is found don't create new json files
-    if docs == []:
+    if not docs:
         continue
 
     # create a directory for the current collection
     dir_path = os.path.join(json_path, col.name)
-    if os.path.exists(dir_path):
-        shutil.rmtree(dir_path)
     os.mkdir(dir_path)
 
     # convert the document list to json format and write it to a file
@@ -100,6 +97,8 @@ for file in json_files:
             new_object_data = {k: v for k, v in obj.items() if v}
             # iterate over all keys in the 'new' dictionary
             for key in new_object_data:
+                if isinstance(new_object_data[key], bool):
+                    continue
                 if isinstance(new_object_data[key], list):
                     try:
                         new_object_data[key] = list(map(int, new_object_data[key]))
@@ -114,7 +113,7 @@ for file in json_files:
             new_object_data['id'] = new_object_data.pop('_id')
             new_objects.append(new_object_data)
 
-    with open(file, 'w', encoding='cp1252') as f:
+    with open(file, 'w', encoding='utf-8') as f:
         f.write(json.dumps(new_objects, indent=4, ensure_ascii=False))
 
 # ============================================================
