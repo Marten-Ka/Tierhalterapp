@@ -52,7 +52,7 @@ class Krankheiten {
   String? informationen;
 
   @HiveField(15)
-  String? sofortmassnahmen;
+  List<String>? sofortmassnahmen;
 
   @HiveField(16)
   bool? krankheitHaeufig;
@@ -97,7 +97,7 @@ class Krankheiten {
     alterMin = json['alter_min'];
     alterMax = json['alter_max'];
     informationen = json['informationen'];
-    sofortmassnahmen = json['sofortmaßnahmen'];
+    sofortmassnahmen = (json['sofortmaßnahmen'] != null) ? List<String>.from(json['sofortmaßnahmen']) : null;
     krankheitHaeufig = json['krankheit_haeufig'];
     krankheitSelten = json['krankheit_selten'];
   }
@@ -119,7 +119,7 @@ class Krankheiten {
       DataCell(Text(alterMin != null ? alterMin.toString() : "")),
       DataCell(Text(alterMax != null ? alterMax.toString() : "")),
       DataCell(Text(informationen != null ? informationen.toString() : "")),
-      DataCell(Text(sofortmassnahmen != null ? sofortmassnahmen.toString() : "")),
+      DataCell(Text(sofortmassnahmen != null ? sofortmassnahmen!.join('\n') : "")),
       DataCell(Text(krankheitHaeufig != null ? krankheitHaeufig.toString() : "")),
       DataCell(Text(krankheitSelten != null ? krankheitSelten.toString() : "")),
     ]);

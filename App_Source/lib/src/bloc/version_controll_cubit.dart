@@ -101,9 +101,9 @@ class VersionControllCubit extends Cubit<VersionControllState> {
       overallAmount += value.length;
     });
     emit(state.copyWith(updateControll: state.updateControll.copyWith(inlineToUpdateTable: updatedInlineToUpdate, overallUpdateAmount: overallAmount)));
-    emit(state.copyWith(updateControll: state.updateControll.nextTable(true)));
+    emit(state.copyWith(updateControll: state.updateControll.nextTable()));
 
-    processUpdateLoop(context, newerTableVersions);
+    await processUpdateLoop(context, newerTableVersions);
 
     BlocProvider.of<DataAccessorCubit>(context).reload();
     emit(state.copyWith(updateControll: state.updateControll.copyWith(status: UpdateControllStatus.idle)));
@@ -198,7 +198,7 @@ class VersionControllCubit extends Cubit<VersionControllState> {
         }
       }
       createSuccessSnackbar(context, table+" installiert");
-      emit(state.copyWith(updateControll: state.updateControll.nextTable(false)));
+      emit(state.copyWith(updateControll: state.updateControll.nextTable()));
     }
   }
 

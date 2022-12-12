@@ -32,7 +32,7 @@ class KrankheitenAdapter extends TypeAdapter<Krankheiten> {
       alterMin: fields[12] as int?,
       alterMax: fields[13] as int?,
       informationen: fields[14] as String?,
-      sofortmassnahmen: fields[15] as String?,
+      sofortmassnahmen: (fields[15] as List?)?.cast<String>(),
       krankheitHaeufig: fields[16] as bool?,
       krankheitSelten: fields[17] as bool?,
     );

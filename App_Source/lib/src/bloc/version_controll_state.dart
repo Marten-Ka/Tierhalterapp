@@ -127,7 +127,7 @@ class UpdateControllState extends Equatable {
     );
   }
 
-  UpdateControllState nextTable(bool start) {
+  UpdateControllState nextTable() {
     Map<String, int> inlineToUpdateTable = this.inlineToUpdateTable;
     if (inlineToUpdateTable.isEmpty) {
       return copyWith(
@@ -141,7 +141,7 @@ class UpdateControllState extends Equatable {
       currentTable: table,
       currentUpdateAmount: currentUpdateAmount,
       currentUpdateProgress: 0,
-      overallUpdateProgress: start ? overallUpdateProgress : overallUpdateProgress + 1,
+      overallUpdateProgress: overallUpdateProgress,
     );
   }
 
